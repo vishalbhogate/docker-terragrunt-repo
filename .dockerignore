@@ -1,0 +1,9 @@
+# Exclude
+*
+
+# Include
+!fmt
+!LICENSE
+!README.md
+!show-versions.sh
+!.gitconfig
