@@ -103,7 +103,6 @@ RUN if [ "${AWS}" = "yes" ]; then \
 
 # Scripts, configs and cleanup
 COPY fmt/format-hcl fmt/fmt.sh fmt/terragrunt-fmt.sh fmt/assume-role.sh show-versions.sh /usr/bin/
-COPY .gitconfig /root/
 SHELL ["/bin/bash", "-euxo", "pipefail", "-c"]
 RUN chmod +x \
     /usr/bin/format-hcl \
